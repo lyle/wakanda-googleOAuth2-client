@@ -1,13 +1,13 @@
 {
-    "name": "GoogleOAuth2",
-    "description": "Google OAuth2 authentication for Wakanda",
+    "name": "wakanda-googleOAuth2-client",
+    "description": "Google OAuth2 authentication client for Wakanda",
     "version": "0.1",
     "author": [
         "Lyle Troxell (http://github.com/lyle)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/lyle/GoogleOAuth2.git"
+        "url": "https://github.com/lyle/wakanda-googleOAuth2-client.git"
     },
     "dependencies" : {
         "wakanda-querystring" : ">= 0.1"

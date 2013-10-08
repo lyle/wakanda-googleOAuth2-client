@@ -1,7 +1,6 @@
-#GoogleOAuth2#
+#wakanda-googleOAuth2-client#
 
-This JavaScript module provides AOuth2 authentication using Google's API. 
-And was written to be used with [wakandaDB](http://wakandaDB.org/) and was written first for [GlassWakanda](https://github.com/lyle/GlassWakanda).
+This JavaScript module provides OAuth2 client authentication using Google's API. It was written to be used with [wakandaDB](http://wakandaDB.org/) and was created for [GlassWakanda](https://github.com/lyle/GlassWakanda).
 
 Google OAuth2
 -------------
