@@ -1,3 +1,7 @@
+// this example requires a data model in wakanda called Person
+// with attributes: firstName, lastName, email,
+// and a calculate addtribute of fullName
+
 function login(request, response){
   var googleOAuth2 = require('GoogleOAuth2/GoogleOAuth2').OAuth2;
   var OAuth2 = new googleOAuth2(
