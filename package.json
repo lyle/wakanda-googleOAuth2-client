@@ -1,0 +1,19 @@
+{
+    "name": "GoogleOAuth2",
+    "description": "Google OAuth2 authentication for Wakanda",
+    "version": "0.1",
+    "author": [
+        "Lyle Troxell (http://github.com/lyle)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lyle/GoogleOAuth2.git"
+    },
+    "dependencies" : {
+        "querystring" : ">= 1.0.0"
+    },
+    "keywords": ["wakanda", "ssjs", "OAuth2", "google", "authentication"],
+    "main": "./GoogleOAuth2.js",
+    "engines": {"wakanda" : ">=5"},
+    "license": "MIT"
+}
