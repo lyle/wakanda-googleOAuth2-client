@@ -10,7 +10,7 @@
         "url": "https://github.com/lyle/GoogleOAuth2.git"
     },
     "dependencies" : {
-        "querystring" : ">= 1.0.0"
+        "wakanda-querystring" : ">= 0.1"
     },
     "keywords": ["wakanda", "ssjs", "OAuth2", "google", "authentication"],
     "main": "./GoogleOAuth2.js",
