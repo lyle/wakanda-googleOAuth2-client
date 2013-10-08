@@ -1,5 +1,5 @@
 function login(request, response){
-  var googleOAuth2 = require('GoogleOAuth2').OAuth2;
+  var googleOAuth2 = require('GoogleOAuth2/GoogleOAuth2').OAuth2;
   var OAuth2 = new googleOAuth2(
     "Your Google ClientID....apps.googleusercontent.com",
     "Your Google ClientSecret",
