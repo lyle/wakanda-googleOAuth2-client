@@ -1,12 +1,11 @@
 function login(request, response){
   var googleOAuth2 = require('GoogleOAuth2').OAuth2;
-  var ApiData = require('ApiAppData.js');
   var OAuth2 = new googleOAuth2(
-    ApiData.client_id,
-    ApiData.client_secret,
-    ApiData.redirect_uri,
-    {scope:ApiData.scope,
-      approval_prompt:ApiData.approval_prompt
+    "Your Google ClientID....apps.googleusercontent.com",
+    "Your Google ClientSecret",
+    "http://127.0.0.1:8081/",
+    {scope:"email https://www.googleapis.com/auth/userinfo.profile",
+     approval_prompt: "force"
     }
   )
   var theQuery = getURLQuery(request.url);
