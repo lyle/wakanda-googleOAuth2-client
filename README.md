@@ -30,7 +30,7 @@ You will need to change these things:
 
 * Put GoogleAuthExample.js in YourProject/Scripts
 * Put your Google Application data into the GoogleAuthExample.js file
-* Add an http request handler in your project's active Bootstrap file
+* Add an http request handler in your project's active [Bootstrap](http://doc.wakanda.org/Wakanda0.DevBranch/help/Title/en/page3283.html#1014177) file
   addHttpRequestHandler("/login", "Scripts/GoogleAuthExample.js", "login");
 * Run wakandaDB
 
