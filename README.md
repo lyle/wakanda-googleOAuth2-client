@@ -16,7 +16,7 @@ Put the GoogleOAuth2.js file into your Wakanda Project "Modules" folder - you ca
 
 If you clone the project as a sumbmodule, from your git project root:
 
-    git submodule add https://github.com/lyle/GoogleOAuth2.git path/to/Modules/GoogleOAuth2
+    git submodule add https://github.com/lyle/wakanda-googleOAuth2-client.git path/to/Modules/GoogleOAuth2
 
 Then get the dependency "wakanda-querystring" into the Modules folder.
 Simply go and grab the querystring.js file from https://github.com/anvivia/wakanda-querystring
@@ -34,6 +34,3 @@ You will need to change these things:
     addHttpRequestHandler("/login", "Scripts/GoogleAuthExample.js", "login");
 
 4) Run wakandaDB
-
-
-
