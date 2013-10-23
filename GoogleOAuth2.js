@@ -23,6 +23,9 @@ OAuth2.prototype.getAuthenticateURL = function(option_arg){
   options.scope = options.scope || this.scope;
   options.approval_prompt = options.approval_prompt || this.approval_prompt;
   options.access_type = options.access_type || this.access_type;
+  if(this.options && this.options.state){
+    options.state = this.options.state;
+  }
   
   return OAuth2.OAUTH2_URL + '?' + qs.stringify(options);
 }
