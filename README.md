@@ -33,4 +33,4 @@ You will need to change these things:
 
     addHttpRequestHandler("/login", "Scripts/GoogleAuthExample.js", "login");
 
-4) Run wakandaDB
+- Run wakandaDB
