@@ -27,9 +27,9 @@ To Use in Wakanda
 Take a look at GoogleAuthExample.js file.
 You will need to change these things:
 
-1) Put GoogleAuthExample.js in YourProject/Scripts
-2) Put your Google Application data into the GoogleAuthExample.js file
-3) Add an http request handler in your project's active [Bootstrap](http://doc.wakanda.org/Wakanda0.DevBranch/help/Title/en/page3283.html#1014177) file
+- Put GoogleAuthExample.js in YourProject/Scripts
+- Put your Google Application data into the GoogleAuthExample.js file
+- Add an http request handler in your project's active [Bootstrap](http://doc.wakanda.org/Wakanda0.DevBranch/help/Title/en/page3283.html#1014177) file
 
     addHttpRequestHandler("/login", "Scripts/GoogleAuthExample.js", "login");
 
